@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Check LeapYear" HorizontalAlignment="Left" Height="28" Margin="22,17,0,0" VerticalAlignment="Top" Width="181"/>
+        <TextBox Name="txtLeapYear" HorizontalAlignment="Left" Height="25" Margin="22,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <Button Name="btnLeapYear" Content="Leap Year?" HorizontalAlignment="Left" Height="25" Margin="136,50,0,0" VerticalAlignment="Top" Width="121" Click="btnLeapYear_Click"/>
+        <Label Name="lblLeapYear" Content="" HorizontalAlignment="Left" Height="25" Margin="262,50,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label Content="Euro Conversion" HorizontalAlignment="Left" Height="24" Margin="22,88,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox Name="txtConversion" HorizontalAlignment="Left" Height="53" Margin="22,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <Button Content="Convert to EUR/BEF" HorizontalAlignment="Left" Height="53" Margin="136,126,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click"/>
+        <Label Name="lblConversion" Content="" HorizontalAlignment="Left" Height="53" Margin="262,126,0,0" VerticalAlignment="Top" Width="123"/>
     </Grid>
 </Window>

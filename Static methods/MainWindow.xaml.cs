@@ -24,5 +24,18 @@ namespace Static_methods
         {
             InitializeComponent();
         }
+
+        private void btnLeapYear_Click(object sender, RoutedEventArgs e)
+        {
+
+            lblLeapYear.Content = LeapYear.IsLeapYear(Convert.ToInt32(txtLeapYear.Text));
+          
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblConversion.Content = EuroConversion.ToEuro(Convert.ToDecimal(txtConversion.Text)).ToString("F2") + " \u20AC" + Environment.NewLine + EuroConversion.ToBEF(Convert.ToDecimal(txtConversion.Text)).ToString("F2") + " BEF";
+        }
     }
 }
