@@ -37,5 +37,10 @@ namespace Static_methods
         {
             lblConversion.Content = EuroConversion.ToEuro(Convert.ToDecimal(txtConversion.Text)).ToString("F2") + " \u20AC" + Environment.NewLine + EuroConversion.ToBEF(Convert.ToDecimal(txtConversion.Text)).ToString("F2") + " BEF";
         }
+
+        private void btnCheck_Click(object sender, RoutedEventArgs e)
+        {
+            lblNationalNumber.Content = NationalRegistryNumber.IsValid(txtNationalNumber.Text); 
+        }
     }
 }

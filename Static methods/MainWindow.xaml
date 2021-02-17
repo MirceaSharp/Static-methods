@@ -15,5 +15,9 @@
         <TextBox Name="txtConversion" HorizontalAlignment="Left" Height="53" Margin="22,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
         <Button Content="Convert to EUR/BEF" HorizontalAlignment="Left" Height="53" Margin="136,126,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click"/>
         <Label Name="lblConversion" Content="" HorizontalAlignment="Left" Height="53" Margin="262,126,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label Content="Check National Registry Number" HorizontalAlignment="Left" Height="27" Margin="22,198,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox Name="txtNationalNumber" HorizontalAlignment="Left" Height="28" Margin="22,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <Button Name="btnCheck" Content="Check" HorizontalAlignment="Left" Height="28" Margin="136,237,0,0" VerticalAlignment="Top" Width="121" Click="btnCheck_Click"/>
+        <Label Name="lblNationalNumber" Content="" HorizontalAlignment="Left" Height="28" Margin="277,237,0,0" VerticalAlignment="Top" Width="108"/>
     </Grid>
 </Window>
